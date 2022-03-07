@@ -1,0 +1,458 @@
+body {
+    width: 100%;
+}
+
+.hero {
+    width: 100%;
+    height: calc(100vh - var(--altura-header));
+    padding: 100px 20px;
+    
+    background-image: url(../../img/bg-hero.png), linear-gradient(180deg, rgba(158, 23, 37, 0.205) 0%, rgba(0, 0, 0, 0.452) 87.84%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: clamp(30px, 10vw, 60px);
+    text-align: center;
+    font-family: var(--ff-medium);
+}
+
+.hero h3 {
+    color: #fff;
+    font-size: clamp(20px, 10vw, 40px);
+    margin-top: -30px;
+    text-align: center;
+}
+
+.hero form {
+    width: 100%;
+    max-width: 860px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    overflow: hidden;
+
+    display: flex;
+}
+
+.hero form > input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.hero form .home-hero-submit {
+    width: 150px;
+    background: var(--color-1);
+    position: relative;  
+}
+
+.home-hero-submit input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+}
+
+.home-hero-submit div {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    position: absolute;
+    user-select: none;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+}
+
+
+
+/* Menú Flotante */
+
+.nav-secundario {
+    width: 100%;
+    height: 40px;
+    background: #F6F6F6;
+    box-shadow: 0 4px 4px #0004;
+    border-radius: 0 0 40px 40px;
+    position: sticky;
+    top: 100px;
+    z-index: 2001;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-secundario ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-secundario ul li {
+    width: clamp(80px, 20vw, 150px);
+    list-style-type: none;
+    text-align: center;
+    font-family: var(--ff-regular);
+}
+
+.nav-secundario ul li a {
+    width: 100%;
+    display: block;
+}
+
+.nav-secundario ul li a.li-active,
+.nav-secundario ul li a:hover {
+    font-family: var(--ff-bold) !important;
+    font-size: 18px;
+}
+
+
+
+/* PILARES */
+
+.nav-pilares {
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.nav-pilares h2 {
+    padding-bottom: 10px;
+}
+
+.nav-pilares .cards-pilares {
+    width: 100%;
+
+    display: flex;
+    gap: 15px;
+}
+
+.nav-pilares .cards-pilares .card-pilares {
+    width: 25%;
+    height: 100px;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+.nav-pilares .cards-pilares .card-pilares:hover {
+    width: 50%;
+}
+
+.nav-pilares .cards-pilares .card-pilares a {
+    width: 100%;
+    height: 100%;
+    padding: 15px 10px;
+    font-family: var(--ff-medium);
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.nav-pilares .cards-pilares .card-pilares:nth-child(1) {
+    background: linear-gradient(180deg, #FF0013 0%, #A51622 100%);
+}
+
+.nav-pilares .cards-pilares .card-pilares:nth-child(2) {
+    background: linear-gradient(180deg, #FF2200 0%, #871301 100%);
+}
+
+.nav-pilares .cards-pilares .card-pilares:nth-child(3) {
+    background: linear-gradient(180deg, #FD5F00 0%, #9E3D02 100%);
+}
+
+.nav-pilares .cards-pilares .card-pilares:nth-child(4) {
+    background: linear-gradient(180deg, #FFD400 0%, #C6AC2F 100%);
+}
+
+
+
+/* Que es Gobierno Abierto */
+
+.que-es-ga {
+    width: 100%;
+    padding: 20px 50px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    place-items: center;
+}
+
+.que-es-ga .que-es-info {
+    /* width: 50%; */
+    /* flex-basis: 300px; */
+    /* flex-grow: 1; */
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.que-es-ga .que-es-info h3 {
+    font-size: 30px;
+    font-family: var(--ff-bold);
+}
+
+.que-es-ga .que-es-info p {
+    font-size: 20px;
+}
+
+.que-es-ga .que-es-logo {
+    flex-grow: 1;
+    padding: 50px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.que-es-ga .que-es-logo img {
+    height: 150px;
+}
+
+
+/* Publicidad Computadora */
+
+.publi-cidi-compu {
+    width: 100%;
+    padding: 60px 100px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.publi-cidi-compu .publi-info-compu {
+    max-width: 70%;
+    flex-basis: 300px;
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.publi-cidi-compu .publi-info-compu h3 {
+    font-size: 30px;
+    font-family: var(--ff-bold);
+}
+
+.publi-cidi-compu .publi-info-compu p {
+    font-size: 20px;
+}
+
+.publi-cidi-compu .publi-info-compu a {
+    padding: 10px 50px;
+    color: #fff;
+    background: #DC3015;
+    border-radius: 6px;
+    box-shadow: 0 3px 4px #0004;
+}
+
+.publi-cidi-compu .publi-img-compu {
+    width: 50%;
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 50px 0;
+    position: absolute;
+    right: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.publi-cidi-compu .publi-img-compu img {
+    height: 300px;
+}
+
+
+/* Noticias Home */
+
+.noticias-home {
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.noticias-home h2 {
+    font-size: 30px;
+    font-family: var(--ff-bold);
+}
+
+.noticias-home .cards-noticias {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+}
+
+.noticias-home .cards-noticias .card-noticias {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.noticias-home .cards-noticias .card-noticias .card-noti,
+.noticias-home .cards-noticias .card-noticias .card-noti img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.noticias-home .cards-noticias h4 {
+    color: #4175B8;
+}
+
+.noticias-home .cards-noticias a {
+    text-align: right;
+}
+
+.noticias-home .cards-noticias a:hover {
+    color: #4175B8;
+}
+
+
+
+/* Trámites Home */
+
+.cards-home-tramites {
+    width: 100%;
+    padding: 20px 50px;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+}
+
+.card-home-tramite {
+    padding: 20px 50px;
+    text-align: center;
+    box-shadow: 0 4px 4px #0004;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-home-titulo {
+    color: #4175B8;
+}
+
+
+
+/* Link Útiles */
+
+.links-utiles {
+    width: 100%;
+    padding: 20px 50px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 20px 40px;
+}
+
+.links-utiles .link {
+    box-shadow: 0 4px 4px #0004;
+    padding: 10px 15px;
+    border-radius: 7px;
+    text-align: right;
+}
+
+.links-utiles .link h4 {
+    color: #4175B8;
+    font-family: var(--ff-medium);
+    text-align: left;
+}
+
+.links-utiles .link a {
+    color: var(--color-1) !important;
+}
+
+
+
+
+/* Publicidad Apps */
+
+.publi-cidi-celu {
+    width: 100%;
+    padding: 20px 100px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    place-items: center;
+    gap: 80px;
+}
+
+.publi-cidi-celu .publi-info-celu {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.publi-cidi-celu .publi-info-celu .publi-texto-celu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.publi-cidi-celu .publi-info-celu .publi-texto-celu h3 {
+    font-family: var(--ff-bold);
+    font-size: 30px;
+}
+
+.publi-cidi-celu .publi-info-celu .publi-texto-celu p {
+    font-size: 20px;
+}
+
+.publi-cidi-celu .publi-info-celu .publi-buttons-celu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.publi-cidi-celu .publi-info-celu .publi-buttons-celu img {
+    height: 60px;
+}
+
+
+/* Flyer Violencia */
+
+.flyer-violencia {
+    width: 100%;
+}
+
+.flyer-violencia img {
+    width: 100%;
+}

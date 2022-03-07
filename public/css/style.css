@@ -1,0 +1,20 @@
+@import url('fonts.css');
+@import url('componentes-css/variables.css');
+@import url('componentes-css/header-footer.css');
+@import url('componentes-css/home.css');
+@import url('componentes-css/institucional.css');
+@import url('componentes-css/contacto.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'BrokmanRegular', 'verdana';
+}
+
+a,
+a::before,
+a::after {
+    text-decoration: none;
+    color: #000;
+}

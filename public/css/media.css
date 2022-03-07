@@ -1,0 +1,27 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+    .publi-cidi-compu .publi-info-compu {
+        max-width: 100%;
+    }
+    .publi-cidi-compu .publi-img-compu {
+        width: 100%;
+        max-width: 500px;
+        position: static !important;
+    }
+    publi-cidi-compu .publi-img-compu img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .que-es-ga .que-es-logo {
+        padding: 10px 0 !important;
+    }
+}
+
+@media (max-width: 540px) {
+
+}

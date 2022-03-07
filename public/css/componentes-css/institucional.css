@@ -1,0 +1,159 @@
+/* Nosotros - Responsabilidades */
+
+.nosotros-responsabilidad {
+    width: 100%;
+    padding: 60px 50px;
+}
+
+.nosotros-responsabilidad h3 {
+    font-size: 30px;
+    font-family: var(--ff-bold);
+    margin-bottom: 50px;
+}
+
+.responsabilidad {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.resposabilidad-img,
+.resposabilidad-texto {
+    width: 50%;
+    flex-basis: 300px;
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.resposabilidad-texto > div p {
+    font-size: 20px;
+}
+
+.resposabilidad-texto > div li {
+    list-style-type: '-  ';
+    line-height: 1.4;
+}
+
+.resposabilidad-img {
+    width: 50%;
+    flex-basis: 400px;
+    flex-grow: 1;
+    padding: 50px 0;
+}
+
+.resposabilidad-img img {
+    width: 80%;
+}
+
+
+.responsabilidad:nth-child(1) {
+    display: block;
+}
+
+
+
+.resposabilidad-texto-2 > div p {
+    font-size: 20px;
+}
+
+.resposabilidad-texto-2 > div li {
+    list-style-type: '-  ';
+    line-height: 1.4;
+}
+
+.resposabilidad-img-2 {
+    width: 40%;
+    flex-basis: 400px;
+    flex-grow: 1;
+    padding: 50px 0;
+    float: right;
+}
+
+.resposabilidad-img-2 img {
+    width: 100%;
+    padding: 0 50px;
+}
+
+
+/* Organismos */
+
+.organismos {
+    width: 100%;
+    padding: 0 50px;
+}
+
+.organismos h2 {
+    font-size: 30px;
+    font-family: var(--ff-bold);
+    margin-bottom: 50px;
+}
+
+.cards-organismos {
+    width: 100%;
+    margin-bottom: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+}
+
+.card-organismos {
+    width: 100%;
+    max-width: 275px;
+    padding: 20px;
+    background: #ccc;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-organismos .card-org,
+.card-organismos-2 .card-org {
+    width: 100%;
+    /* height: 100px; */
+    background: #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-organismos .card-org img,
+.card-organismos-2 .card-org img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cards-organismos h4 {
+    color: #000;
+    font-size: 24px;
+}
+
+.card-organismos-2 {
+    width: 100%;
+    padding: 20px;
+    background: #ccc;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* 
+.cards-organismos a {
+    text-align: right;
+}
+
+.cards-organismos a:hover {
+    color: #4175B8;
+} */

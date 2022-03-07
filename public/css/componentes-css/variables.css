@@ -1,0 +1,12 @@
+:root {
+    --color-1: #9E1724;
+    --color-2: #C03823;
+    --color-3: #F28E51;
+    --color-4: #FCDB39;
+
+    --altura-header: 100px;
+
+    --ff-light: 'BrokmanLight';
+    --ff-medium: 'BrokmanMedium';
+    --ff-bold: 'BrokmanBold';
+}
