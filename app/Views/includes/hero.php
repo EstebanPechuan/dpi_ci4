@@ -18,9 +18,9 @@
     <ul>
         <li><a href="<?= base_url('/') ?>" class=" <?php if ($menu_activo === 'home') { echo 'li-active'; } ?> ">INICIO</a></li>
         |
-        <li><a href="<?= base_url('institucional') ?>" class=" <?php if ($menu_activo === 'institucional') { echo 'li-active'; } ?> ">INSTITUCIONAL</a></li>
+        <li><a href="<?= base_url('nosotros') ?>" class=" <?php if ($menu_activo === 'nosotros') { echo 'li-active'; } ?> ">DGA</a></li>
         |
-        <li><a href="<?= base_url('servicios') ?>" class=" <?php if ($menu_activo === 'servicios') { echo 'li-active'; } ?> ">SERVICIOS</a></li>
+        <li><a href="<?= base_url('pilares') ?>" class=" <?php if ($menu_activo === 'pilares') { echo 'li-active'; } ?> ">PILARES</a></li>
         |
         <li><a href="<?= base_url('contacto') ?>" class=" <?php if ($menu_activo === 'contacto') { echo 'li-active'; } ?> ">CONTACTO</a></li>
     </ul>

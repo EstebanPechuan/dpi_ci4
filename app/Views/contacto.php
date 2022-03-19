@@ -1,10 +1,10 @@
-
 <main>
     <?php
         $clase['menu_activo'] = 'contacto';
         echo view('includes/hero', $clase);
 
-        echo view('includes/pilares');
+        $clase['pilar_activo'] = 'null';
+        echo view('includes/pilares', $clase);
     ?>
 
     <section class="form-dpi">
@@ -49,10 +49,7 @@
         </form>    
     </section>
 
-    <div class="form-row">
-
-    
-    <div class="flyer-violencia">
-        <img src=" <?php echo base_url('public/img/purple-bg.png') ?> " alt="Flyer Violencia">
-    </div>
+    <?php
+        echo view('includes/flyer_violencia');
+    ?>
 </main>

@@ -1,0 +1,223 @@
+/* Trámites Home */
+
+.cards-pilares-transparencias {
+    width: 100%;
+}
+
+.cards-pilares-transparencias > h3 {
+    font-size: 30px;
+    font-family: var(--ff-bold);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cards-pilares-transparencia {
+    width: 100%;
+    padding: 20px 50px;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+}
+
+.card-pilar-transparencia {
+    padding: 20px;
+    box-shadow: 0 4px 4px #0004;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-pilar-titulo {
+    min-height: 60px;
+    color: #4175B8;
+    text-align: left;
+}
+
+.card-pilar-img {
+    height: 60px;
+}
+
+.card-pilar-img img {
+    height: 100%;
+}
+
+
+.resposabilidad-texto-3 > div p {
+    font-size: 20px !important;
+}
+
+.resposabilidad-texto-3 > div li,
+.menu-ul-circle li {
+    /* list-style-type: circle; */
+    line-height: 1.4;
+    font-size: 20px !important;
+    margin-left: 20px !important;
+}
+
+
+/* Link Útiles */
+
+.link-util-transparencia {
+    color: var(--color-1) !important;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.estadisticas {
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.estadisticas fieldset {
+    width: 100%;
+    padding: 0 20px;
+    border: 4px solid #000;
+    border-radius: 8px;
+    position: relative;
+}
+
+.estadisticas legend {
+    font-size: 40px;
+    margin: 0 30px;
+    padding: 0 10px;
+}
+
+.interior-fieldset {
+    width: 100%;
+    padding: 50px 100px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    place-content: center;
+}
+
+.card-estadistica {
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    align-items: center;
+    gap: 10px;
+}
+
+.card-estadistica .asterisco,
+.card-estadistica .card-est h2 {
+    font-size: 40px;
+    font-family: var(--ff-bold);
+    line-height: 0.8;
+}
+
+.card-estadistica .asterisco {
+    margin-top: 20px;
+}
+
+.card-est p {
+    font-size: 16px;
+}
+
+.grafica-est {
+    height: 300px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: -1;
+}
+
+.estadisticas .grafica-est img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.estadisticas > p {
+    margin-top: 20px;
+}
+
+
+.publicidad-cidi {
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.publicidad-cidi img {
+    width: 100%;
+}
+
+
+/* Colaboración */
+
+.fields-colaboracion {
+    width: 100%;
+    padding: 20px 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.fields-colaboracion fieldset {
+    flex-basis: 450px;
+    flex-grow: 1;
+    padding: 0 20px;
+    border: 4px solid #000;
+    border-radius: 8px;
+    position: relative;
+}
+
+.fields-colaboracion legend {
+    font-size: 20px;
+    margin: 0 30px;
+    padding: 0 10px;
+    font-family: var(--ff-bold);
+}
+
+.fields-colaboracion .interior-fieldset {
+    width: 100%;
+    padding: 20px;
+}
+
+.fields-colaboracion .interior-fieldset * {
+    width: 100% !important;
+}
+
+.fields-colaboracion .fields-colaboracion-menu > li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.fields-colaboracion .fields-colaboracion-menu > li span {
+    font-family: var(--ff-bold);
+}
+
+.fields-colaboracion .fields-colaboracion-submenu {
+    margin-left: 20px;
+}
+
+.fields-colaboracion .fields-colaboracion-submenu li {
+    margin-left: 20px;
+    list-style-type: disc;
+    font-size: 20px;
+}
+
+
+
+
+
+.fields-colaboracion .grafica-est-1 {
+    height: 300px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: -1;
+}
+
+.fields-colaboracion .grafica-est-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

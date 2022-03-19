@@ -2,8 +2,9 @@
 @import url('componentes-css/variables.css');
 @import url('componentes-css/header-footer.css');
 @import url('componentes-css/home.css');
-@import url('componentes-css/institucional.css');
+@import url('componentes-css/nosotros.css');
 @import url('componentes-css/contacto.css');
+@import url('componentes-css/pilar-transparencia.css');
 
 * {
     margin: 0;

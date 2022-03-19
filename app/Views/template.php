@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DPI - <?php echo ucfirst($contenido) ?> </title>
+    <title>DGA - <?php if ($contenido === 'pilares_site') {
+            echo 'Pilares';
+        } else { echo ucfirst($contenido); } ?> </title>
 
     <link rel="shortcut icon" href="<?php echo base_url('favicon.png') ?>" type="image/png">
 

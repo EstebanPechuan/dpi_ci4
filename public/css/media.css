@@ -11,7 +11,7 @@
         max-width: 500px;
         position: static !important;
     }
-    publi-cidi-compu .publi-img-compu img {
+    .publi-cidi-compu .publi-img-compu img {
         width: 100%;
     }
 }
@@ -22,6 +22,22 @@
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 650px) {
+    .nav-pilares {
+        padding: 20px 10px;
+    }
+    .cards-pilares {
+        gap: 5px !important;
+    }
+    .nav-pilares .cards-pilares .card-pilares a {
+        font-size: 10px;
+    }
+}
 
+@media (max-width: 540px) {
+    .nav-secundario ul li a,
+    .nav-secundario ul li a.li-active,
+    .nav-secundario ul li a:hover {
+        font-size: 14px;
+    }
 }

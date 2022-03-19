@@ -155,7 +155,8 @@ body {
     transition: 0.4s;
 }
 
-.nav-pilares .cards-pilares .card-pilares:hover {
+.nav-pilares .cards-pilares .card-pilares:hover,
+.nav-pilares .cards-pilares .card-pilares.pilar-active {
     width: 50%;
 }
 
@@ -224,7 +225,7 @@ body {
 
 .que-es-ga .que-es-logo {
     flex-grow: 1;
-    padding: 50px 0;
+    padding: 10px 0;
 
     display: flex;
     justify-content: center;
