@@ -2,10 +2,10 @@
 
 namespace App\Controllers;
 
-class Servicios extends BaseController {
+class Departamentos extends BaseController {
 
     public function index() {
-		$data['contenido'] = 'servicios';
+		$data['contenido'] = 'sueldos';
         return view('template', $data);
     }
 
@@ -14,8 +14,8 @@ class Servicios extends BaseController {
         return view('template', $data);
     }
 
-    public function institucional() {
-		$data['contenido'] = 'institucional';
+    public function interoperabilidad() {
+		$data['contenido'] = 'interoperabilidad';
         return view('template', $data);
     }
 

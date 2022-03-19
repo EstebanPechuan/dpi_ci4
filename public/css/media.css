@@ -16,6 +16,25 @@
     }
 }
 
+@media (max-width: 840px) {
+    .departamentos {
+        width: 100%;
+        padding: 20px 50px;
+        
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .depto-info {
+        width: 100%;
+    }
+    .depto-datos {
+        width: 100%;
+    }
+}
+
 @media (max-width: 768px) {
     .que-es-ga .que-es-logo {
         padding: 10px 0 !important;
