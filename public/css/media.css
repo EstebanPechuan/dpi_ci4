@@ -59,4 +59,10 @@
     .nav-secundario ul li a:hover {
         font-size: 14px;
     }
+    .hero form .home-hero-submit {
+        width: 50px;
+    }
+    .home-hero-submit div p {
+        display: none;
+    }
 }

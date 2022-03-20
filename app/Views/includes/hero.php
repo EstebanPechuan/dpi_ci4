@@ -3,7 +3,7 @@
         <h2>Bienvenid@</h2>
         <h1>Dirección Provincial de Informática</h1>
     </div>
-    <h3>Innovación Tecnológica</h3>
+    <h3>Simple, Rápido y Fácil</h3>
 
     <form action="./index.html" method="POST">
         <input type="text">

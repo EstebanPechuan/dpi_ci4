@@ -1,4 +1,3 @@
-
 <main>
     <?php
         $clase['menu_activo'] = 'servicios';
@@ -10,7 +9,7 @@
 
 
     <section class="links-utiles-servicios">
-        <h3>Qué es Gobierno Abierto</h3>
+        <h3>Servicios</h3>
 
         <div class="link">
             <a href="#c">
@@ -23,7 +22,7 @@
         </div>
 
         <div class="link">
-            <a href="#c">
+            <a href=" <?= base_url('servicios/sistemas') ?> ">
                 <h4>Sistemas </h4>
                 <p>Requerimiento de nuevo desarrollo. (link a formulario de requerimiento en elaboración)</p>
                 <h5 href="#c">

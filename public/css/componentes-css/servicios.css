@@ -7,6 +7,7 @@
 
 .links-utiles-servicios h3 {
     font-size: 30px;
+    font-family: var(--ff-bold);
 }
 
 .links-utiles-servicios .link {
@@ -41,4 +42,88 @@
 .links-utiles-servicios .link h5 {
     color: var(--color-1) !important;
     font-size: 20px;
+}
+
+
+
+/* Tabla de servicios / trámites */
+
+.depto-servicios {
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.tabla-servicios {
+    width: 100%;
+}
+
+.cada-servicio {
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 8px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    
+    display: grid;
+    grid-template-columns: minmax(125px, 1fr) 3px 3fr;
+}
+
+.cada-servicio .serv-nombre {
+    padding: 0 15px;
+    min-height: 43px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cada-servicio .linea-vert {
+    width: 3px;
+    background: #000b;
+    border-radius: 4px;
+}
+
+.cada-servicio .serv-descripcion {
+    padding: 10px 80px 10px 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: 0.4s;
+}
+
+.cada-servicio:nth-child(1) > * {
+    font-family: var(--ff-bold);
+    cursor: auto !important;
+}
+
+.cada-servicio:nth-child(even) {
+    background: #E9EAEE;
+}
+
+.cada-servicio:nth-child(odd) {
+    background: #fff;
+}
+
+.cada-servicio .flecha-ver-mas {
+    padding: 10px 30px;
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    transform: scaleY(0.6) rotate(0deg);
+    transition: 0.4s;
+    user-select: none;
+}
+
+
+.cada-servicio .serv-descripcion-click {
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: clip;
+}
+
+.cada-servicio .flecha-ver-mas-click {
+    transform: scaleY(0.7) rotate(-180deg);
 }

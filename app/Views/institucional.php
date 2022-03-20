@@ -1,4 +1,3 @@
-
 <main>
     <?php
         $clase['menu_activo'] = 'institucional';

@@ -9,24 +9,24 @@ class Servicios extends BaseController {
         return view('template', $data);
     }
 
-    public function sueldos() {
-		$data['contenido'] = 'sueldos';
+    public function sistemas() {
+		$data['contenido'] = 'servicios/sistemas';
         return view('template', $data);
     }
 
-    public function institucional() {
-		$data['contenido'] = 'institucional';
+    public function aplicaciones() {
+		$data['contenido'] = 'servicios/aplicaciones';
         return view('template', $data);
     }
 
-    public function sistema() {
-		$data['contenido'] = 'sistema';
-        return view('template', $data);
-    }
+    // public function sistema() {
+	// 	$data['contenido'] = 'sistema';
+    //     return view('template', $data);
+    // }
 
-    public function soporte() {
-		$data['contenido'] = 'soporte';
-        return view('template', $data);
-    }
+    // public function soporte() {
+	// 	$data['contenido'] = 'soporte';
+    //     return view('template', $data);
+    // }
 
 }
