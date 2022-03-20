@@ -94,8 +94,16 @@
     transition: 0.4s;
 }
 
+.cada-servicio .serv-descripcion div {
+    width: fit-content;
+}
+
+.display-inline {
+    display: inline;
+}
+
 .cada-servicio:nth-child(1) > * {
-    font-family: var(--ff-bold);
+    font-family: var(--ff-bold) !important;
     cursor: auto !important;
 }
 
@@ -109,12 +117,19 @@
 
 .cada-servicio .flecha-ver-mas {
     padding: 10px 30px;
+    /* background: inherit; */
     position: absolute;
     right: 0;
     font-size: 30px;
     transform: scaleY(0.6) rotate(0deg);
     transition: 0.4s;
     user-select: none;
+    visibility: hidden;
+}
+
+
+.cada-servicio .flecha-ver-mas.active {
+    visibility: visible;
 }
 
 
