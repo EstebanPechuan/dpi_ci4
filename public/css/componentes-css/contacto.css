@@ -20,7 +20,9 @@
 }
 
 .form-dpi .form-column {
-    width: 100%;
+    /* width: 100%; */
+    flex-basis: 400px;
+    flex-grow: 1;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -31,6 +33,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -72,7 +75,10 @@
 }
 
 .form-dpi .input-group.textarea {
-    width: 100%;
+    /* width: 100%; */
+    min-height: 200px;
+    flex-basis: 400px;
+    flex-grow: 1;
 }
 
 .form-dpi .input-group textarea {
@@ -88,7 +94,9 @@
 
 .form-dpi input[type="submit"],
 .form-dpi input[type="reset"] {
-    width: 50%;
+    min-width: 200px;
+    flex-basis: 200px;
+    flex-grow: 1;
     padding: 20px 0;
     background: var(--color-1);
     color: #fff;
