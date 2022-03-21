@@ -1,0 +1,182 @@
+/* Desplegablaes */
+
+.politicas-select {
+    width: 100%;
+    padding: 20px 50px;
+
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.selects {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.selects p {
+    margin-bottom: 10px;
+}
+
+.selects select {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.selects.select-red p{
+    color: #A51622;
+}
+
+.selects.select-red select {
+    color: #A51622;
+    border: 1px solid #A51622 !important;
+}
+
+
+.alert-blue {
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.alert-blue p {
+    width: 100%;
+    padding: 20px 30px;
+    background: #B2E0F0;
+    border-radius: 8px;
+    color: #000b;
+}
+
+
+/* .politicas-select .btn-filtrar {
+    flex-basis: 220px;
+    flex-grow: 1;
+} */
+
+.btn-fill-red {
+    min-width: 220px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 40px;
+    background: var(--color-1);
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn-fill-red.disable {
+    background: #ccc;
+}
+
+
+
+
+/* Tabla de aplicaciones */
+
+.depto-aplicaciones {
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.tabla-aplicaciones {
+    width: 100%;
+}
+
+.cada-aplicacion {
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 8px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    
+    display: grid;
+    grid-template-columns: 
+        minmax(180px, 1fr)
+        3px
+        minmax(100px, 200px)
+        3px
+        minmax(100px, 150px)
+        3px
+        3fr;
+}
+
+.cada-aplicacion .app-nombre,
+.cada-aplicacion .app-tipo,
+.cada-aplicacion .app-sistema {
+    padding: 0 15px;
+    min-height: 43px;
+    text-align: left;
+    /* text-transform: uppercase; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cada-aplicacion .linea-vert {
+    width: 3px;
+    background: #000b;
+    border-radius: 4px;
+}
+
+.cada-aplicacion .app-alcance {
+    padding: 10px 80px 10px 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: 0.4s;
+}
+
+.cada-aplicacion .app-alcance div {
+    width: fit-content;
+}
+
+/* Se sobre escribe con los estilos de la tabla de sistemas */
+/* .display-inline {
+    display: inline;
+} */
+
+.cada-aplicacion:nth-child(even) {
+    background: #E9EAEE;
+}
+
+.cada-aplicacion:nth-child(odd) {
+    background: #fff;
+}
+
+.cada-aplicacion .flecha-ver-mas {
+    padding: 10px 30px;
+    /* background: inherit; */
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    transform: scaleY(0.6) rotate(0deg);
+    transition: 0.4s;
+    user-select: none;
+    visibility: hidden;
+}
+
+
+.cada-aplicacion .flecha-ver-mas.active {
+    visibility: visible;
+}
+
+
+.cada-aplicacion .app-alcance-click {
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: clip;
+}
+
+.cada-aplicacion .flecha-ver-mas-click {
+    transform: scaleY(0.7) rotate(-180deg);
+}

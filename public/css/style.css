@@ -7,6 +7,7 @@
 @import url('componentes-css/pilar-transparencia.css');
 @import url('componentes-css/departamentos.css');
 @import url('componentes-css/servicios.css');
+@import url('componentes-css/aplicaciones.css');
 
 * {
     margin: 0;

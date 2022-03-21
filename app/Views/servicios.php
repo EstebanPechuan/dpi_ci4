@@ -67,7 +67,7 @@
         <h3>Aplicaciones y Servicios</h3>
 
         <div class="link">
-            <a href="#c">
+            <a href="servicios/aplicaciones">
                 <h4>Catálogo de Aplicaciones y Servicios</h4>
                 <!-- <p>Requerimiento sueldos (Iniciar expediente SIGED desde CIDI)</p> -->
                 <h5 href="#c">
