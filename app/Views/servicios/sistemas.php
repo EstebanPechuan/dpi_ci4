@@ -29,7 +29,7 @@
                 <div class="serv-nombre">Servicio / Aplicación</div>
                 <div class="linea-vert"></div>
                 <div class="serv-descripcion">
-                    <div>Sistema</div>
+                    <div style="font-family: var(--ff-bold);">Sistema</div>
                 </div>
                 
                 <div class="flecha-ver-mas">v</div>
