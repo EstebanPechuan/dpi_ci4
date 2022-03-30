@@ -7,25 +7,36 @@
         echo view('includes/pilares', $clase);
     ?>
 
-    <section class="politicas-select">
+    <section class="politicas-select" onchange="if((filtro1.value == '') && (filtro2.value == '')){btn_filtrar.classList.add('disable')}else{btn_filtrar.classList.remove('disable')}">
         <div class="selects">
             <p>Politicas</p>
 
-            <select name="politicas" id="">
-                <option value="seleccionar">Seleccionar</option>
+            <select name="politicas" id="filtro1">
+                <option value="">Seleccionar</option>
+                <option value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+                <option value="Option 4">Option 4</option>
+                <option value="Option 5">Option 5</option>
             </select>
         </div>
         <div class="selects select-red">
             <p>Tipo</p>
 
-            <select name="tipo" id="">
-                <option value="seleccionar">Seleccionar</option>
+            <select name="tipo" id="filtro2">
+                <option value="">Seleccionar</option>
+                <option value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+                <option value="Option 4">Option 4</option>
+                <option value="Option 5">Option 5</option>
             </select>
         </div>
 
         <div class="btn-filtrar">
-            <a href="#c" class="btn-fill-red disable">Filtrar
-            <svg height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M487.976 0H24.028C2.71 0-8.047 25.866 7.058 40.971L192 225.941V432c0 7.831 3.821 15.17 10.237 19.662l80 55.98C298.02 518.69 320 507.493 320 487.98V225.941l184.947-184.97C520.021 25.896 509.338 0 487.976 0z" fill="#fff"/></svg>
+            <a href="#c" id="btn_filtrar" class="btn-fill-red disable">
+                Filtrar
+                <svg height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M487.976 0H24.028C2.71 0-8.047 25.866 7.058 40.971L192 225.941V432c0 7.831 3.821 15.17 10.237 19.662l80 55.98C298.02 518.69 320 507.493 320 487.98V225.941l184.947-184.97C520.021 25.896 509.338 0 487.976 0z" fill="#fff"/></svg>
             </a>
         </div>
     </section>

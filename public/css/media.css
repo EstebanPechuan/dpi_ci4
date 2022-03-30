@@ -33,6 +33,12 @@
     .depto-datos {
         width: 100%;
     }
+    .tabla-aplicaciones {
+        overflow-x: scroll;
+    }
+    .tabla-servicios {
+        overflow-x: scroll;
+    }
 }
 
 @media (max-width: 768px) {
