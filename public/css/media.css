@@ -51,6 +51,12 @@
     .nav-pilares .cards-pilares .card-pilares a {
         font-size: 10px;
     }
+    .que-es-ga {
+      padding: 20px;
+    }
+    .nav-pilares .cards-pilares {
+        overflow-x: scroll;
+    }
 }
 
 @media (max-width: 540px) {
@@ -64,5 +70,13 @@
     }
     .home-hero-submit div p {
         display: none;
+    }
+}
+
+@media (max-width: 458px) {
+    .nav-secundario ul li a,
+    .nav-secundario ul li a.li-active,
+    .nav-secundario ul li a:hover {
+        font-size: 9px;
     }
 }
