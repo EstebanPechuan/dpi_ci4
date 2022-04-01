@@ -1,0 +1,21 @@
+CRITICAL - 2022-03-30 19:21:46 --> syntax error, unexpected ']'
+#0 C:\wamp64\www\dpi_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('servicios/aplic...')
+#1 C:\wamp64\www\dpi_ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('servicios/aplic...')
+#2 C:\wamp64\www\dpi_ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\dpi_ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\dpi_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-30 19:21:57 --> syntax error, unexpected ']'
+#0 C:\wamp64\www\dpi_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('servicios')
+#1 C:\wamp64\www\dpi_ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('servicios')
+#2 C:\wamp64\www\dpi_ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\dpi_ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\dpi_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-30 19:22:12 --> syntax error, unexpected ']'
+#0 C:\wamp64\www\dpi_ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('servicios')
+#1 C:\wamp64\www\dpi_ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('servicios')
+#2 C:\wamp64\www\dpi_ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\dpi_ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\dpi_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

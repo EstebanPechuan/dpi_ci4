@@ -88,28 +88,28 @@
     <section class="links-utiles">
         <div class="link">
             <h4>Ministerio de Hacienda y Finanzas</h4>
-            <a href="#c">
+            <a href="https://hacienda.sanjuan.gob.ar/">
                 Página Web <i class='bx bx-world'></i>
             </a>
         </div>
 
         <div class="link">
-            <h4>Direción de Gobierno Abierto</h4>
-            <a href="#c">
+            <h4>Dirección de Gobierno Abierto</h4>
+            <a href="https://gobiernoabierto.sanjuan.gob.ar/">
                 Página Web <i class='bx bx-world'></i>
             </a>
         </div>
 
         <div class="link">
             <h4>Ciudadano digital</h4>
-            <a href="#c">
+            <a href="https://mi.sanjuan.gob.ar/">
                 Página Web <i class='bx bx-world'></i>
             </a>
         </div>
         
         <div class="link">
             <h4>Formulario TIC</h4>
-            <a href="#c">
+            <a href="https://web.sanjuan.gob.ar/formulariostic/">
                 Página Web <i class='bx bx-world'></i>
             </a>
         </div>
