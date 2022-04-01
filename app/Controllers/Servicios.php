@@ -19,6 +19,19 @@ class Servicios extends BaseController {
         return view('template', $data);
     }
 
+    //  foreach ($data->campos as $reg) {
+    //     if(!empty($reg->data)) {
+    //         foreach ($reg->data as $key => $value) {
+    //             if($key != 'url')
+    //                 $col[] =  $key;
+    //         }
+    //     }
+    //     break;
+    // }
+
+
+    
+
     // public function sistema() {
 	// 	$data['contenido'] = 'sistema';
     //     return view('template', $data);
