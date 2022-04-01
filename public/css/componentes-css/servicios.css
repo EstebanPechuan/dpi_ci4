@@ -59,6 +59,7 @@
 
 .cada-servicio {
     width: 100%;
+    min-width: fit-content;
     padding: 5px 0;
     border-radius: 8px;
     font-size: 20px;
@@ -66,7 +67,7 @@
     cursor: pointer;
     
     display: grid;
-    grid-template-columns: minmax(125px, 1fr) 3px 3fr;
+    grid-template-columns: minmax(125px, 1fr) 3px minmax(300px, 3fr);
 }
 
 .cada-servicio .serv-nombre {
@@ -87,6 +88,7 @@
 }
 
 .cada-servicio .serv-descripcion {
+    min-width: 300px;
     padding: 10px 80px 10px 30px;
     overflow: hidden;
     white-space: nowrap;

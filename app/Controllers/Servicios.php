@@ -16,7 +16,10 @@ class Servicios extends BaseController {
 
     public function aplicaciones() {
 		$data['contenido'] = 'servicios/aplicaciones';
+        $data['filtros1'] = ['Soporte','Principal (Core)'];
         return view('template', $data);
+
+
     }
 
     //  foreach ($data->campos as $reg) {

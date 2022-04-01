@@ -29,7 +29,7 @@
                 <div class="serv-nombre">Servicio / Aplicación</div>
                 <div class="linea-vert"></div>
                 <div class="serv-descripcion">
-                    <div>Sistema</div>
+                    <div style="font-family: var(--ff-bold);">Sistema</div>
                 </div>
                 
                 <div class="flecha-ver-mas">v</div>
@@ -250,6 +250,16 @@
                 <div class="linea-vert"></div>
                 <div class="serv-descripcion">
                     <div>Plataforma de Gestión de Procesos de Negocios (BPM)</div>
+                </div>
+                
+                <div class="flecha-ver-mas">v</div>
+            </div>
+
+            <div class="cada-servicio">
+                <div class="serv-nombre">Pruieba</div>
+                <div class="linea-vert"></div>
+                <div class="serv-descripcion">
+                    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi sint nemo perferendis dicta aliquid voluptates a quo, suscipit incidunt omnis delectus non nam quisquam dolore dolorem debitis. Aliquam repudiandae laborum quibusdam architecto libero labore corporis suscipit sit magnam, accusantium, in, asperiores vitae? Maiores laboriosam minus nihil praesentium dignissimos. Provident, exercitationem?</div>
                 </div>
                 
                 <div class="flecha-ver-mas">v</div>
