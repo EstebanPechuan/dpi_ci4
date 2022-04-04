@@ -3,7 +3,7 @@
         $clase['menu_activo'] = 'pilares';
         echo view('includes/hero', $clase);
 
-        $clase['pilar_activo'] = 'sistema';
+        $clase['pilar_activo'] = 'sistemas';
         echo view('includes/pilares', $clase);
     ?>
 

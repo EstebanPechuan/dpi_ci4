@@ -8,7 +8,7 @@
             <a href="<?= base_url('departamentos/interoperabilidad') ?>">INTEROPERABILIDAD</a>
         </div>
         <div class="card-pilares <?php if ($pilar_activo === 'sistema') { echo 'pilar-active'; } ?> ">
-            <a href="<?= base_url('departamentos/sistema') ?>">SISTEMA</a>
+            <a href="<?= base_url('departamentos/sistemas') ?>">SISTEMAS</a>
         </div>
         <div class="card-pilares <?php if ($pilar_activo === 'soporte') { echo 'pilar-active'; } ?> ">
             <a href="<?= base_url('departamentos/soporte') ?>">SOPORTE</a>

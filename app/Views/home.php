@@ -68,7 +68,9 @@
     <section class="cards-home-tramites">
         <div class="card-home-tramite">
             <div class="card-home-titulo">
-                <h3>Consultas de Expedientes</h3>
+                <a href="https://hacienda.sanjuan.gob.ar/">
+                    <h3>Consultas de Expedientes</h3>
+                </a>
             </div>
             <div class="card-home-img">
                 <img src=" <?php echo base_url('public/img/iconos/folder.png') ?> " alt="Icono Carpeta">
