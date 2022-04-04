@@ -19,8 +19,8 @@ class Departamentos extends BaseController {
         return view('template', $data);
     }
 
-    public function sistema() {
-		$data['contenido'] = 'departamentos/sistema';
+    public function sistemas() {
+		$data['contenido'] = 'departamentos/sistemas';
         return view('template', $data);
     }
 
