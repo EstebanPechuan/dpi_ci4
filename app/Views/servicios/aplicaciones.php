@@ -8,38 +8,24 @@
     ?>
 
     <section class="politicas-select" onchange="if((filtro1.value == '') && (filtro2.value == '')){btn_filtrar.classList.add('disable')}else{btn_filtrar.classList.remove('disable')}">
-        <div class="selects">
-            <p>Politicas</p>
-
-            <select name="politicas" id="filtro1">
-                <option value="">Seleccionar</option>
-
-                <!-- <?php foreach($filtros1 as $filtro) { ?>
-                    <option value="<?php echo $filtro ?>"><?php echo $filtro ?></option>
-                <?php } ?> -->
-
-                <option value="Option 1">Option 1</option>
-                <option value="Option 2">Option 2</option>
-                <option value="Option 3">Option 3</option>
-                <option value="Option 4">Option 4</option>
-                <option value="Option 5">Option 5</option>
-
-            </select>
-        </div>
-        <div class="selects select-red">
+    <div class="selects select-red">
             <p>Tipo</p>
-
             <select name="tipo" id="filtro2">
                 <option value="">Seleccionar</option>
-
-                <?php foreach($filtros1 as $filtro) { ?>
+                <?php foreach($filtros2 as $filtro) { ?>
                     <option value="<?php echo $filtro ?>"><?php echo $filtro ?></option>
                 <?php } ?>
-
-                
+            </select>
+        </div>    
+        <div class="selects">
+            <p>Politicas</p>
+            <select name="politicas" id="filtro1">
+                <option value="">Seleccionar</option>
+                <?php foreach($filtros1 as $filtro) { ?>
+                    <option value="<?php echo $filtro ?>"><?php echo $filtro ?></option>
+                <?php } ?> 
             </select>
         </div>
-
         <div class="btn-filtrar">
             <a href="#c" id="btn_filtrar" class="btn-fill-red disable">
                 Filtrar
