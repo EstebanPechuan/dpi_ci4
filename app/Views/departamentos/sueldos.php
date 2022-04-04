@@ -7,7 +7,7 @@
         echo view('includes/pilares', $clase);
     ?>
 
-    <section class="departamentos">
+    <section id="depto-sueldos" class="departamentos" tabindex="1">
         <div class="depto-info">
             <h3>Departamento Sueldos</h3>
             <p>Desde el Departamento Sueldos de la Dirección Provincial de Informática de la Provincia de San juan, realizamos las siguientes tareas y responsabilidades:</p>
@@ -63,4 +63,5 @@
     <?php
         echo view('includes/flyer_violencia');
     ?>
+    
 </main>

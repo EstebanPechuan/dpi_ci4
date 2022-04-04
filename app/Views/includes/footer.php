@@ -14,14 +14,12 @@
             <br>
             Oeste - Capital.
             <br>
-            Centro Cívico, 2° Piso.
+            Centro Cívico, 1° Piso Núcleo 5
             <br>
-            Conmutador: 264 430 5000.
-            <br>
-            Teléfono: 264 430 6848/6854.
+            Teléfono: 264 430 6670
         </p>
     </div>
-    <div class="tramites-servicios">
+    <!-- <div class="tramites-servicios">
         <h3>Trámites y Servicios</h3>
         <ul>
             <li>
@@ -40,8 +38,8 @@
                 <a href="#c">Acceso a Webmail</a>
             </li>
         </ul>
-    </div>
-    <div class="accesos-directos">
+    </div> -->
+    <!-- <div class="accesos-directos">
         <h3>Accesos Directos</h3>
         <ul>
             <li>
@@ -63,5 +61,5 @@
                 <a href="#c">Agencia de San Juan de Desarrollo de Inversiones</a>
             </li>
         </ul>
-    </div>
+    </div> -->
 </footer>

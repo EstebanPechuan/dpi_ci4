@@ -22,3 +22,7 @@ a::after {
     text-decoration: none;
     color: #000;
 }
+
+*:focus{
+    outline: none;
+}

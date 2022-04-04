@@ -6,6 +6,7 @@ class Home extends BaseController {
 
     public function index() {
 		$data['contenido'] = 'home';
+		$data['hero'] = true;
         return view('template', $data);
     }
 

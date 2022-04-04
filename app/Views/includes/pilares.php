@@ -1,4 +1,4 @@
-<section class="nav-pilares">
+<section class="nav-pilares" id="depto-sueldos">
     <h2>Departamentos</h2>
     <div class="cards-pilares">
         <div class="card-pilares <?php if ($pilar_activo === 'sueldos') { echo 'pilar-active'; } ?> ">

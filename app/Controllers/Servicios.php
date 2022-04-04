@@ -6,17 +6,20 @@ class Servicios extends BaseController {
 
     public function index() {
 		$data['contenido'] = 'servicios';
+		$data['hero'] = false;
         return view('template', $data);
     }
 
     public function sistemas() {
 		$data['contenido'] = 'servicios/sistemas';
+		$data['hero'] = false;
         return view('template', $data);
     }
 
     public function aplicaciones() {
 		$data['contenido'] = 'servicios/aplicaciones';
         $data['filtros1'] = ['Soporte','Principal (Core)'];
+		$data['hero'] = false;
         return view('template', $data);
 
 

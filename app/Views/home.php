@@ -33,7 +33,7 @@
         <div class="cards-noticias">
             <div class="card-noticias">
                 <div class="card-noti">
-                    <img src=" <?php echo base_url('public/img/noticias/noticia1.png') ?> " alt="Imágen de Noticia">
+                    <img src=" <?php echo base_url('public/img/noticias/noticia1.png') ?> " alt="Imagen de Noticia">
                 </div>
                 <h4>Los Sistemas Integrados como aliados del proceso de modernización del Estado sanjuanino</h4>
                 <p>El uso de Sistemas de Información Integrados resultan aliados a la hora de agilizar trámites y conectar al Estado entre sí y con el ciudadano.</p>
@@ -67,51 +67,54 @@
 
     <section class="cards-home-tramites">
         <div class="card-home-tramite">
-            <div class="card-home-titulo">
-                <a href="https://hacienda.sanjuan.gob.ar/">
-                    <h3>Consultas de Expedientes</h3>
-                </a>
-            </div>
-            <div class="card-home-img">
-                <img src=" <?php echo base_url('public/img/iconos/folder.png') ?> " alt="Icono Carpeta">
-            </div>
+            <a href="https://sanjuan.gob.ar/#dnwvZ29iaWVybm8vc2VydmljaW9zL2V4cGVkaWVudGVzL3MvX2ZfMkIzMzFDQzM0RDM0NEMzMTg3NURFRDVFMDUwNjBGQUEuaHRtbHxfdmFsaWRhY2lvbmVzfHx8fA==" target="_blank">
+                <div class="card-home-titulo">
+                    <h3>Consulta de Expedientes</h3>
+                </div>
+                <div class="card-home-img">
+                    <img src=" <?php echo base_url('public/img/iconos/folder.png') ?> " alt="Icono Carpeta">
+                </div>
+            </a>
         </div>
 
         <div class="card-home-tramite">
-            <div class="card-home-titulo">
-                <h3>Consultas y solicitudes</h3>
-            </div>
-            <div class="card-home-img">
-                <img src=" <?php echo base_url('public/img/iconos/chats.png') ?> " alt="Icono Conversación">
-            </div>
+            <a href="https://hacienda.sanjuan.gob.ar/#dnwvZ29iaWVybm8vcmVkbWluZS9jb25zdWx0YXMvcy9fZl9CMzcxOTJCQjMxMzM0NDQ1QjU0OEQ1QjgyQ0Y4OEIyQi5odG1sfF92YWxpZGFjaW9uZXN8fHx8" target="_blank">
+                <div class="card-home-titulo">
+                    <h3>Consultas y solicitudes</h3>
+                </div>
+                <div class="card-home-img">
+                    <img src=" <?php echo base_url('public/img/iconos/chats.png') ?> " alt="Icono Conversación">
+                </div>
+            </a>
         </div>
     </section>
-
+    
     <section class="links-utiles">
+        <h2 style="width: 100%;">Links Útiles</h2>
         <div class="link">
             <h4>Ministerio de Hacienda y Finanzas</h4>
-            <a href="https://hacienda.sanjuan.gob.ar/">
+            <a href="https://hacienda.sanjuan.gob.ar/" target="_blank">
                 Página Web <i class='bx bx-world'></i>
             </a>
         </div>
 
         <div class="link">
             <h4>Dirección de Gobierno Abierto</h4>
-            <a href="https://gobiernoabierto.sanjuan.gob.ar/">
+            <a href="https://gobiernoabierto.sanjuan.gob.ar/" target="_blank">
                 Página Web <i class='bx bx-world'></i>
             </a>
         </div>
 
         <div class="link">
             <h4>Ciudadano digital</h4>
-            <a href="https://mi.sanjuan.gob.ar/">
+            <a href="https://mi.sanjuan.gob.ar/" target="_blank">
                 Página Web <i class='bx bx-world'></i>
             </a>
         </div>
         
         <div class="link">
             <h4>Formulario TIC</h4>
-            <a href="https://web.sanjuan.gob.ar/formulariostic/">
+            <a href="http://formulariostic.sanjuan.gov.ar/#SGP" target="_blank">
                 Página Web <i class='bx bx-world'></i>
             </a>
         </div>
