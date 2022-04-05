@@ -5,11 +5,7 @@
         } else {
             echo strtolower($tipo);
         }
-<<<<<<< HEAD
         // echo ' ' . transform_class($proceso)
-=======
-        //echo ' ' . $this->funciones->transform_class($proceso);
->>>>>>> 9b24f78c4aaaa4dd32e2e609f0070d196f9ba886
 
         // echo strtolower(eliminar_acentos($proceso));
     ?>">

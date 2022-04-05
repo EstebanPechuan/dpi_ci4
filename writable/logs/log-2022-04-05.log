@@ -351,3 +351,20 @@ CRITICAL - 2022-04-05 12:29:40 --> syntax error, unexpected '<<' (T_SL), expecti
 #13 C:\wamp64\www\dpi_ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #14 C:\wamp64\www\dpi_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
 #15 {main}
+CRITICAL - 2022-04-05 12:30:01 --> syntax error, unexpected '<<' (T_SL), expecting end of file
+#0 C:\wamp64\www\dpi_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\dpi_ci4\system\Common.php(1089): CodeIgniter\View\View->render('includes/compon...', Array, true)
+#2 C:\wamp64\www\dpi_ci4\app\Views\servicios\aplicaciones.php(85): view('includes/compon...', Array)
+#3 C:\wamp64\www\dpi_ci4\system\View\View.php(210): include('C:\\wamp64\\www\\d...')
+#4 C:\wamp64\www\dpi_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\wamp64\www\dpi_ci4\system\Common.php(1089): CodeIgniter\View\View->render('servicios/aplic...', Array, true)
+#6 C:\wamp64\www\dpi_ci4\app\Views\template.php(25): view('servicios/aplic...')
+#7 C:\wamp64\www\dpi_ci4\system\View\View.php(210): include('C:\\wamp64\\www\\d...')
+#8 C:\wamp64\www\dpi_ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 C:\wamp64\www\dpi_ci4\system\Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#10 C:\wamp64\www\dpi_ci4\app\Controllers\Servicios.php(254): view('template', Array)
+#11 C:\wamp64\www\dpi_ci4\system\CodeIgniter.php(832): App\Controllers\Servicios->aplicaciones()
+#12 C:\wamp64\www\dpi_ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Servicios))
+#13 C:\wamp64\www\dpi_ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\wamp64\www\dpi_ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
