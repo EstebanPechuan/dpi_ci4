@@ -367,6 +367,10 @@ body {
     gap: 50px;
 }
 
+.cards-home-tramites .app-sistema{
+    text-align: center;
+}
+
 .card-home-tramite {
     box-shadow: 0 4px 4px #0004;
 }

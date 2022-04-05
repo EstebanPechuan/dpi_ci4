@@ -123,6 +123,10 @@
     align-items: center;
 }
 
+.app-sistema{
+    text-align: center;
+}
+
 .cada-aplicacion .linea-vert {
     width: 3px;
     background: #000b;

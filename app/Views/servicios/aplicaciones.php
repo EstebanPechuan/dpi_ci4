@@ -9,7 +9,7 @@
     ?>
 
     <section class="politicas-select" onchange="if((filtro1.value == '') && (filtro2.value == '')){btn_filtrar.classList.add('disable')}else{btn_filtrar.classList.remove('disable')}">
-    <div class="selects select-red">
+        <div class="selects select-red">
             <p>Tipo</p>
             <select name="tipo" id="filtro2" onchange="filtro(this.value)">
                 <option value="">Seleccionar</option>
@@ -18,7 +18,7 @@
                 <?php } ?>
             </select>
         </div>    
-        <div class="selects">
+        <!-- <div class="selects">
             <p>Politicas</p>
             <select name="politicas" id="filtro1">
                 <option value="">Seleccionar</option>
@@ -26,7 +26,7 @@
                     <option value="<?php echo $filtro ?>"><?php echo $filtro ?></option>
                 <?php } ?> 
             </select>
-        </div>
+        </div> -->
         <div class="btn-filtrar">
             <a href="#c" id="btn_filtrar" class="btn-fill-red disable">
                 Filtrar

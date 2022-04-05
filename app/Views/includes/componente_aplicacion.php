@@ -5,7 +5,7 @@
         } else {
             echo strtolower($tipo);
         }
-        echo ' ' . $this->funciones->transform_class($proceso);
+        //echo ' ' . $this->funciones->transform_class($proceso);
 
         // echo strtolower(eliminar_acentos($proceso));
     ?>">
