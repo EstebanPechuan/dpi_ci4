@@ -26,7 +26,7 @@
                     <option value="<?php echo $filtro ?>"><?php echo $filtro ?></option>
                 <?php } ?> 
             </select>
-        </div> -->
+        </div>
         <div class="btn-filtrar">
             <a href="#c" id="btn_filtrar" class="btn-fill-red disable">
                 Filtrar
