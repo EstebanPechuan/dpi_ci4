@@ -81,7 +81,7 @@ class Servicios extends BaseController {
                 'tipo' => 'Principal (Core)',
                 'proceso' => 'Gestión de Documentos',
                 'alcance' => 'Colaboración y Cloud Interno',
-                'sistema'=> 'Owncloud/NextCloud'
+                'sistema'=> 'Owncloud / NextCloud'
             ],
             [
                 'tipo' => 'Soporte',
