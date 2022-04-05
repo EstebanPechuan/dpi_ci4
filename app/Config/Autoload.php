@@ -86,5 +86,3 @@ class Autoload extends AutoloadConfig
     public $files = [];
 
 }
-
-$autoload['libraries'] = array('funciones');

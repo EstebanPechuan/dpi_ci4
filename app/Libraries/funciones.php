@@ -1,16 +1,19 @@
-<?php
-    function transform_class($proceso) {
+<?php namespace App\Libraries;
+
+class Funciones {
+
+    public function transform_class($proceso) {
         $proceso = strtolower(eliminar_acentos($proceso));
         $proceso = eliminar_espacios($proceso);
         return $proceso;
     }
 
-    function eliminar_espacios($cadena) {        
+    public function eliminar_espacios($cadena) {        
         $sinEspacios = str_replace(' ', '-', $cadena); 
         return $sinEspacios;
     }
 
-    function eliminar_acentos($cadena) {
+    public function eliminar_acentos($cadena) {
 		
 		//Reemplazamos la A y a
 		$cadena = str_replace(
@@ -52,4 +55,5 @@
 		
 		return $cadena;
 	}
+}
 ?>

@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Libraries\Funciones;
+
 class Servicios extends BaseController {
 
     public function index() {
@@ -251,5 +253,4 @@ class Servicios extends BaseController {
         $data['hero'] = false;
         return view('template', $data);
     }
-
 }
