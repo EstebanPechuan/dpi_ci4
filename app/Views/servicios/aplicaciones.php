@@ -1,6 +1,7 @@
 <main>
     <?php
         $clase['menu_activo'] = 'aplicaciones';
+		$clase['hero'] = true;
         echo view('includes/hero', $clase);
 
         $clase['pilar_activo'] = 'null';
@@ -10,7 +11,7 @@
     <section class="politicas-select" onchange="if((filtro1.value == '') && (filtro2.value == '')){btn_filtrar.classList.add('disable')}else{btn_filtrar.classList.remove('disable')}">
     <div class="selects select-red">
             <p>Tipo</p>
-            <select name="tipo" id="filtro2">
+            <select name="tipo" id="filtro2" onchange="filtro(this.value)">
                 <option value="">Seleccionar</option>
                 <?php foreach($filtros2 as $filtro) { ?>
                     <option value="<?php echo $filtro ?>"><?php echo $filtro ?></option>
@@ -36,7 +37,7 @@
 
     <section class="que-es-ga">
         <div class="que-es-info">
-            <h3>Sevicios / Sistemas</h3>
+            <h3>Servicios / Sistemas</h3>
             <p>Desde la Dirección Provicial de Informática brindamos el sevicio de analizar, diseñar, desarrolar sistemas informáticos transversales y verticales del Gobierono de la Provincia de San Juan.</p>
         </div>
     </section>
@@ -52,7 +53,7 @@
 
     <section class="depto-aplicaciones">
         <div class="tabla-aplicaciones">
-            <div class="cada-aplicacion">
+            <div class="cada-aplicacion" style="display: grid !important;">
                 <div class="app-nombre" style="font-family: var(--ff-bold)">Proceso de Negocios</div>
 
                 <div class="linea-vert"></div>
@@ -76,149 +77,18 @@
                 <div class="flecha-ver-mas">v</div>
             </div>
 
-            <div class="cada-aplicacion">
-                <div class="app-nombre">Coordinación de Diseño</div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-tipo">
-                    <div>Soporte</div>
-                </div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-sistema">
-                    <div>Sistema</div>
-                </div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-alcance">
-                    <div>Alcance</div>
-                </div>
-                
-                <div class="flecha-ver-mas">v</div>
-            </div>
-
-            <div class="cada-aplicacion">
-                <div class="app-nombre">Desarrollo y Personalización</div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-tipo">
-                    <div>Soporte</div>
-                </div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-sistema">
-                    <div>Sistema</div>
-                </div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-alcance">
-                    <div>Alcance</div>
-                </div>
-                
-                <div class="flecha-ver-mas">v</div>
-            </div>
-
-            <div class="cada-aplicacion">
-                <div class="app-nombre">Gestión de Accesos</div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-tipo">
-                    <div>Soporte</div>
-                </div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-sistema">
-                    <div>Sistema</div>
-                </div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-alcance">
-                    <div>Alcance</div>
-                </div>
-                
-                <div class="flecha-ver-mas">v</div>
-            </div>
-
-            <div class="cada-aplicacion">
-                <div class="app-nombre">Gestión de Activos</div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-tipo">
-                    <div>Principal (Core)</div>
-                </div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-sistema">
-                    <div>CONSUMAN</div>
-                </div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-alcance">
-                    <div>Sistema de Gestión de Activos</div>
-                </div>
-                
-                <div class="flecha-ver-mas">v</div>
-            </div>
-
-            <div class="cada-aplicacion">
-                <div class="app-nombre">Gestión de Cambios</div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-tipo">
-                    <div>Soporte</div>
-                </div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-sistema">
-                    <div>Sistema</div>
-                </div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-alcance">
-                    <div>Alcance</div>
-                </div>
-                
-                <div class="flecha-ver-mas">v</div>
-            </div>
-
-            <div class="cada-aplicacion">
-                <div class="app-nombre">Gestión de Capital Humano</div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-tipo">
-                    <div>Principal (Core)</div>
-                </div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-sistema">
-                    <div>SIARH</div>
-                </div>
-
-                <div class="linea-vert"></div>
-
-                <div class="app-alcance">
-                    <div>Sistema Integrado de Recursos Humanos. Gestión de Legajos y todo lo que refiere a la trazabilidad de los agentes del estado impactando. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, dolorem?</div>
-                </div>
-                
-                <div class="flecha-ver-mas">v</div>
-            </div>
+            <?php
+                if (!empty($table)) {
+                    foreach ($table as $fila) {
+                        // print_r($fila);
+                        // die();
+                        echo view('includes/componente_aplicacion', $fila);
+                    }
+                } else {
+                    echo 'No hay tarjetas en esta sección';
+                }
+            ?>
+            
         </div>
     </section>
     

@@ -52,3 +52,31 @@ desplegablesApp.forEach(item => {
         console.log(item.children[6].children[0]);
     }
 });
+
+
+
+// Filtrado
+
+function filtro(tipo) {
+    let filas = document.querySelectorAll('.cada-aplicacion')
+    filas.forEach(item => {
+        item.style.display = 'none'
+    });
+
+    if(tipo === 'Principal (Core)') {
+        tipo = 'principal'
+    }
+    
+    if(tipo === '') {
+        filas.forEach(item => {
+            item.style.display = 'grid'
+        });
+    }
+
+    let claseTipo = document.querySelectorAll(`.${tipo.toLowerCase()}`)
+    
+    filas[0].style.display = 'grid'
+    claseTipo.forEach(item => {
+        item.style.display = 'grid'
+    });
+}
