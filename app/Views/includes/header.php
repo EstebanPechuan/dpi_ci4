@@ -2,7 +2,7 @@
     <img src=" <?php echo base_url('public/img/linea-header.png') ?> " alt="Divisoria Gobierno">
     <nav>
         <div class="logo">
-            <img src=" <?php echo base_url('public/img/logo-header.png') ?> " alt="Logo Gobierno San Juan">
+            <img src=" <?php echo base_url('public/img/logo-header.svg') ?> " alt="Logo Gobierno San Juan">
         </div>
         <ul>
             <li><a href="#">INICIO</a></li>
