@@ -81,9 +81,8 @@
         <h3>Trámites</h3>
 
         <div class="link">
-            <a href="#c">
-                <h4>Catálogo de Aplicaciones y Servicios</h4>
-                <!-- <p>Requerimiento sueldos (Iniciar expediente SIGED desde CIDI)</p> -->
+            <a href="https://mi.sanjuan.gob.ar/" target="_blank">
+                <h4>Trámite Sueldos</h4>
                 <h5 href="#c">
                     Página Web <i class='bx bx-world'></i>
                 </h5>
@@ -91,9 +90,8 @@
         </div>
 
         <div class="link">
-            <a href="#c">
-                <h4>Catálogo de Aplicaciones y Servicios</h4>
-                <!-- <p>Requerimiento sueldos (Iniciar expediente SIGED desde CIDI)</p> -->
+            <a href="https://mi.sanjuan.gob.ar/" target="_blank">
+                <h4>Formulario 101</h4>
                 <h5 href="#c">
                     Página Web <i class='bx bx-world'></i>
                 </h5>
@@ -101,9 +99,8 @@
         </div>
 
         <div class="link">
-            <a href="#c">
-                <h4>Catálogo de Aplicaciones y Servicios</h4>
-                <!-- <p>Requerimiento sueldos (Iniciar expediente SIGED desde CIDI)</p> -->
+            <a href="https://mi.sanjuan.gob.ar/" target="_blank">
+                <h4>Solicitud de intervención técnica</h4>
                 <h5 href="#c">
                     Página Web <i class='bx bx-world'></i>
                 </h5>

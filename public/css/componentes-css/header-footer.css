@@ -54,8 +54,8 @@ footer {
     margin-top: 10px;
     background: linear-gradient(to right, #040000 0%, #4b0014 100%);
     color: #fff;
-    justify-content: space-between;
-    display: flex;
+    
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
 }

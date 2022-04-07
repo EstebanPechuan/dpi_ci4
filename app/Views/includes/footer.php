@@ -4,7 +4,7 @@
         <div class="footer-redes">
             <i class='bx bxl-facebook-square'></i>
             <i class='bx bxl-instagram'></i>
-            <i class='bx bxl-youtube' ></i>
+            <i class='bx bxl-youtube'></i>
         </div>
     </div>
     <div class="direccion">
@@ -19,47 +19,47 @@
             Teléfono: 264 430 6670
         </p>
     </div>
-    <!-- <div class="tramites-servicios">
+    <div class="tramites-servicios">
         <h3>Trámites y Servicios</h3>
         <ul>
             <li>
-                <a href="#c">Expedientes</a>
+                <a href="https://sanjuan.gob.ar/#dnwvZ29iaWVybm8vc2VydmljaW9zL2V4cGVkaWVudGVzL3MvX2ZfMkIzMzFDQzM0RDM0NEMzMTg3NURFRDVFMDUwNjBGQUEuaHRtbHxfdmFsaWRhY2lvbmVzfHx8fA==" target="_blank">Expedientes</a>
             </li>
             <li>
-                <a href="#c">Contrataciones</a>
+                <a href="https://compraspublicas.sanjuan.gob.ar/" target="_blank">Contrataciones</a>
             </li>
             <li>
-                <a href="#c">Trámites</a>
+                <a href="http://tramite.sanjuan.gov.ar/" target="_blank">Trámites</a>
             </li>
             <li>
-                <a href="#c">Consultas y Servicios</a>
+                <a href="#" target="_blank">Consultas y solicitudes</a>
             </li>
             <li>
-                <a href="#c">Acceso a Webmail</a>
+                <a href="https://webmail.sanjuan.gov.ar/owa" target="_blank">Acceso a Webmail </a>
             </li>
         </ul>
-    </div> -->
-    <!-- <div class="accesos-directos">
+    </div>
+    <div class="accesos-directos">
         <h3>Accesos Directos</h3>
         <ul>
             <li>
-                <a href="#c">Autoridades</a>
+                <a href="https://www.datosabiertos.sanjuan.gob.ar/dataset/protocolo" target="_blank">Autoridades</a>
             </li>
             <li>
-                <a href="#c">Boletín oficial</a>
+                <a href="https://boletinoficial.sanjuan.gob.ar/" target="_blank">Boletín oficial</a>
             </li>
             <li>
-                <a href="#c">OSSE</a>
+                <a href="http://www.ossesanjuan.com.ar/" target="_blank">OSSE</a>
             </li>
             <li>
-                <a href="#c">EPSE</a>
+                <a href="https://www.epse.com.ar/" target="_blank">EPSE</a>
             </li>
             <li>
-                <a href="#c">Caja de Acción Social</a>
+                <a href="http://cas.gob.ar/" target="_blank">Caja de Acción Social</a>
             </li>
             <li>
-                <a href="#c">Agencia de San Juan de Desarrollo de Inversiones</a>
+                <a href="http://www.inversionessanjuan.gov.ar/" target="_blank">Agencia San Juan de Desarrollo de Inversiones</a>
             </li>
         </ul>
-    </div> -->
+    </div>
 </footer>
