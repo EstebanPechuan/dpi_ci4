@@ -35,7 +35,6 @@
             </ul>
         </div>
 
-
         <div class="depto-datos">
             <div class="depto-img">
                 <img src=" <?php echo base_url('public/img/departamentos/departamento1.png') ?> " alt="">
@@ -43,18 +42,18 @@
 
             <div class="depto-datos-jefe">
                 <h3>Jefe de Área</h3>
-                <p>Valdéz, Darío</p>
+                <p>-</p>
 
                 <br>
 
                 <h3>Contacto</h3>
                 <h4>Teléfono</h4>
-                <p>2645669980</p>
+                <p>264-</p>
 
                 <br>
 
-                <h4>Mail</h4>
-                <p>dario_valdez@gmail.com</p>
+                <h4>Correo Electrónico</h4>
+                <p>-</p>
             </div>
         </div>
     </section>
