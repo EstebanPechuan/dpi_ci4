@@ -85,7 +85,7 @@
     }
     .nav-pilares .cards-pilares .card-pilares:hover,
     .nav-pilares .cards-pilares .card-pilares.pilar-active {
-        width: 50%;
+        width: 100%;
     }
     .nav-pilares .cards-pilares .card-pilares a {
         font-size: 14px;
