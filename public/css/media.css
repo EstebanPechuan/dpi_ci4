@@ -60,9 +60,9 @@
     .que-es-ga {
       padding: 20px;
     }
-    .nav-pilares .cards-pilares {
+    /* .nav-pilares .cards-pilares {
         overflow-x: scroll;
-    }
+    } */
 }
 
 @media (max-width: 540px) {
@@ -76,6 +76,19 @@
     }
     .home-hero-submit div p {
         display: none;
+    }
+    .nav-pilares .cards-pilares {
+        flex-wrap: wrap;
+    }
+    .nav-pilares .cards-pilares .card-pilares {
+        width: 100%;
+    }
+    .nav-pilares .cards-pilares .card-pilares:hover,
+    .nav-pilares .cards-pilares .card-pilares.pilar-active {
+        width: 50%;
+    }
+    .nav-pilares .cards-pilares .card-pilares a {
+        font-size: 14px;
     }
 }
 
