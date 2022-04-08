@@ -2,9 +2,15 @@
     <div class="logo-redes">
         <img src=" <?php echo base_url('public/img/gob_sanjuan_logo_footer.svg') ?> " alt="Logo Gobierno footer">
         <div class="footer-redes">
-            <i class='bx bxl-facebook-square'></i>
-            <i class='bx bxl-instagram'></i>
-            <i class='bx bxl-youtube'></i>
+            <a href="https://www.facebook.com/sisanjuanok" target="_blank">
+                <i class='bx bxl-facebook-square'></i>
+            </a>
+            <a href="https://www.instagram.com/sisanjuanok/" target="_blank">
+                <i class='bx bxl-instagram'></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCJM0vXxotCWVHJCJJ1hBbqQ" target="_blank">
+                <i class='bx bxl-youtube' ></i>
+            </a>
         </div>
     </div>
     <div class="direccion">
