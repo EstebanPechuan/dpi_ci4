@@ -14,7 +14,7 @@ body {
     background-blend-mode: multiply;
 
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 30px;
