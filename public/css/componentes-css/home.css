@@ -4,7 +4,7 @@ body {
 
 .hero {
     width: 100%;
-    height: calc(80vh - var(--altura-header));
+    height: calc(60vh - var(--altura-header));
     padding: 100px 20px;
     
     background-image: url(../../img/bg-hero-2.png), linear-gradient(180deg, rgba(158, 23, 37, 0.205) 0%, rgba(0, 0, 0, 0.452) 87.84%);

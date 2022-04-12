@@ -272,28 +272,8 @@
         <h3>Links Útiles</h3>
 
         <div class="link">
-            <a href="#c">
+            <a href="https://soporte.sanjuan.gob.ar/glpi/" target="_blank">
                 <h4>Formulario de GLPI</h4>
-                <!-- <p>Requerimiento sueldos (Iniciar expediente SIGED desde CIDI)</p> -->
-                <h5 href="#c">
-                    Página Web <i class='bx bx-world'></i>
-                </h5>
-            </a>
-        </div>
-
-        <div class="link">
-            <a href="#c">
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                <!-- <p>Requerimiento sueldos (Iniciar expediente SIGED desde CIDI)</p> -->
-                <h5 href="#c">
-                    Página Web <i class='bx bx-world'></i>
-                </h5>
-            </a>
-        </div>
-
-        <div class="link">
-            <a href="#c">
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                 <!-- <p>Requerimiento sueldos (Iniciar expediente SIGED desde CIDI)</p> -->
                 <h5 href="#c">
                     Página Web <i class='bx bx-world'></i>
